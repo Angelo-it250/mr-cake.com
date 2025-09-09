@@ -110,19 +110,29 @@ nav {
   text-align: center;
 }
 
-.contact form {
+.contact-links {
   display: flex;
   flex-direction: column;
-  max-width: 400px;
-  margin: auto;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
 }
 
-.contact input, .contact textarea {
-  margin: 10px 0;
-  padding: 10px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
+.contact-links a {
+  text-decoration: none;
+  background: #ff7b7b;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3s;
 }
+
+.contact-links a:hover {
+  background: #ff4d4d;
+}
+
 
 .contact button {
   background: #ff7b7b;
